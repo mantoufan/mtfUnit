@@ -29,7 +29,7 @@ mtfUnit.query('a', 'a = 1') // 1
 ```
 use `requirejs` will be fine too 
 # Document
-Read [Document](https://mantoufan.github.io/mtfUnit/) for more functions and details  
+Read [Document](https://mantoufan.github.io/mtfUnit/doc/) for more functions and details  
 Read [Test Report](https://mantoufan.github.io/mtfUnit/coverage/lcov-report/) for coverage 
 
 # ToDo
