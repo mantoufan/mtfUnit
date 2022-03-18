@@ -1,0 +1,66 @@
+{
+  "name": "mtfunit",
+  "version": "1.0.2",
+  "description": "Mtfunit is a tiny JavaScript library that includes useful functions to operate strings and DOM",
+  "main": "dist/mtfunit.js",
+  "directories": {
+    "test": "test"
+  },
+  "private": false,
+  "scripts": {
+    "test": "concurrently http-server jest",
+    "coverage": "jest --coverage --env jsdom",
+    "build": "webpack build",
+    "doc": "jsdoc src/mtfunit.js README.md -d ./doc -t ./node_modules/clean-jsdoc-theme",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.imweb.io/w/adam.git"
+  },
+  "keywords": [
+    "js",
+    "dom",
+    "debounce",
+    "throttle",
+    "serialize",
+    "stringify",
+    "htmlEncode",
+    "javaScriptEncode",
+    "getAbsoluteUrl",
+    "delHtmlTag",
+    "addClass",
+    "removeClass",
+    "insertAfter",
+    "removeItemByValue",
+    "isRefererValid"
+  ],
+  "author": "小宇",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-modules-umd": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "babel-loader": "^8.2.2",
+    "clean-jsdoc-theme": "^3.0.6",
+    "concurrently": "^5.3.0",
+    "http-server": "^0.12.3",
+    "husky": "^5.0.8",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^4.4.0",
+    "jsdoc": "^3.6.6",
+    "pinst": "^2.1.4",
+    "punycode": "^2.1.1",
+    "puppeteer": "^5.5.0",
+    "thread-loader": "^3.0.1",
+    "url": "^0.11.0",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {},
+  "__npminstall_done": false
+}

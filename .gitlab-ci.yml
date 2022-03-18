@@ -1,0 +1,11 @@
+pages:
+  stage: deploy
+  script:
+    - rm -rf public
+    - mv doc public
+    - cp -r coverage public/coverage
+  artifacts:
+    paths: 
+      - public
+  only: 
+    - master
