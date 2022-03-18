@@ -29,8 +29,8 @@ mtfUnit.query('a', 'a = 1') // 1
 ```
 use `requirejs` will be fine too 
 # Document
-Read [Document](http://w.page.imweb.io/adam/) for more functions and details  
-Read [Test Report](http://w.page.imweb.io/adam/coverage/lcov-report) for coverage 
+Read [Document](https://mantoufan.github.io/mtfUnit/) for more functions and details  
+Read [Test Report](https://mantoufan.github.io/mtfUnit/coverage/lcov-report/) for coverage 
 
 # ToDo
 DOM module will be independent in the future
